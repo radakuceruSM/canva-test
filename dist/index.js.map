@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.js"],"names":["server","Server","Router","app"],"mappings":";;AAAA;;;;AACA;;;;;;AAEA,IAAMA,SAAS,IAAIC,gBAAJ,CAAW,EAAX,CAAf;AACA,IAAIC,gBAAJ,CAAWF,OAAOG,GAAlB","file":"index.js","sourcesContent":["import Server from \"./services/Server\";\nimport Router from \"./routes/Router\";\n\nconst server = new Server(80);\nnew Router(server.app);\n"]}
